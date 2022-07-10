@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CookieClicker.StatsPage">
+
+    <ContentPage.Resources>
+        <Style TargetType="Label">
+            <Setter Property="FontSize" Value="20"></Setter>
+            <Setter Property="VerticalOptions" Value="Center"></Setter>
+            <Setter Property="HorizontalOptions" Value="Center"></Setter>
+            
+        </Style>
+    </ContentPage.Resources>
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid VerticalOptions="FillAndExpand">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="2*" />
+                    <RowDefinition Height="2*" />
+                    <RowDefinition Height="2*" />
+                    <RowDefinition Height="2*" />
+                    <RowDefinition Height="2*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+                <Image Source="background.jpg" Aspect="Fill" Grid.Row="0" Grid.Column="0" Grid.RowSpan="5"/>
+                <Label x:Name="Current" Grid.Row="0" Grid.Column="0" VerticalOptions="CenterAndExpand"></Label>
+                <Label x:Name="Max" Grid.Row="1" VerticalOptions="CenterAndExpand"></Label>
+                <Label x:Name="Click" Grid.Row="2" VerticalOptions="CenterAndExpand"></Label>
+                <Label x:Name="productivity" Grid.Row="3" VerticalOptions="CenterAndExpand"></Label>
+                <Button x:Name="ShareBtn" Grid.Row="4" Clicked="ShareBtn_Clicked" Text="Share" HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand" HeightRequest="40" WidthRequest="100"></Button>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

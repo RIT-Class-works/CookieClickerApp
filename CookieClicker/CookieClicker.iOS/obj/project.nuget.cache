@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "dgSpecHash": "LQDCmUXxULfV0D/IdXtqYZJ0N7S8cDJy5awIQrqPKO8dpAUHkdw/uJSf7punSsIBn4lsW4KbhxpbRmODt1vv2A==",
+  "success": true,
+  "projectFilePath": "C:\\App Development\\CookieClicker\\CookieClicker\\CookieClicker.iOS\\CookieClicker.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\toand\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\toand\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\toand\\.nuget\\packages\\xamarin.forms\\5.0.0.2125\\xamarin.forms.5.0.0.2125.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Forms from 5.0.0.2244 to 5.0.0.2125. Reference the package directly from the project to select a different version. \r\n CookieClicker.iOS -> CookieClicker -> Xamarin.Forms (>= 5.0.0.2244) \r\n CookieClicker.iOS -> Xamarin.Forms (>= 5.0.0.2125)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    }
+  ]
+}

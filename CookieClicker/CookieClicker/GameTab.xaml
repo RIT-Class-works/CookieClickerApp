@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:Page="clr-namespace:CookieClicker"
+             x:Class="CookieClicker.GameTab">
+  <!--Pages can be added as references or inline-->
+    <Page:MainPage Title="Game" />
+    <Page:StorePage Title="Store" />
+    <Page:UpgradePage Title="Upgrade"/>
+    <Page:StatsPage Title="Stats" />
+</TabbedPage>

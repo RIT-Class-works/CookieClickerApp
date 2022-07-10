@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "W6IkWHEpuh0OXj+8maGEDPWcyiaxjGfk1GQBmyngW6+1PCGl1+rPMKyx0SWQYkTM95bn8+aTqV8cRi62F3NdQA==",
+  "success": true,
+  "projectFilePath": "C:\\App Development\\CookieClicker\\CookieClicker\\CookieClicker\\CookieClicker.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\toand\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\toand\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\toand\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\toand\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\toand\\.nuget\\packages\\xamarin.forms\\5.0.0.2244\\xamarin.forms.5.0.0.2244.nupkg.sha512"
+  ],
+  "logs": []
+}
